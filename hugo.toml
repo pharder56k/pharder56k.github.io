@@ -1,4 +1,5 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
 title = 'My New Hugo Site'
 theme = "theme-abc"
