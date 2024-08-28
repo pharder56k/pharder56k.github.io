@@ -1,0 +1,15 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Harder Blog"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+
+[author]
+name = "Harder"
+image = "65f9c5b680057.jpg"
+headline = "Designer"
