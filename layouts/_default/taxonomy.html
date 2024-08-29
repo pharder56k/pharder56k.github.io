@@ -11,7 +11,7 @@
 {{- end -}}
 
 {{ $toc := and (.Params.showTableOfContents | default (.Site.Params.taxonomy.showTableOfContents | default false)) (in
-.TableOfContents "<ul") }} 
+.TableOfContents "<ul") }}
 
   <header>
     {{ if .Params.showBreadcrumbs | default (.Site.Params.taxonomy.showBreadcrumbs | default false) }}

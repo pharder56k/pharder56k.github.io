@@ -4,7 +4,7 @@ date: 2024-08-29
 draft: false
 description: "a description"
 tags: ["test", "测试"]
-category: ["a", "b"]
+categorries: ["a", "b"]
 ---
 ![](https://pic.xiaozhangstu.com/i/2024/03/20/65f9c4b96ae8e.jpg)
 
