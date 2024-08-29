@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tag on HARDER BLOG</title>
+    <title>Tag on My New Hugo Site</title>
     <link>http://localhost:1313/tags/tag/</link>
-    <description>Recent content in Tag on HARDER BLOG</description>
+    <description>Recent content in Tag on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <managingEditor>pharder56k@gmail.com (HARDER)</managingEditor>
-    <webMaster>pharder56k@gmail.com (HARDER)</webMaster>
-    <copyright>© 2024 HARDER</copyright>
-    <lastBuildDate>Thu, 29 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/tag/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/tag/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>test-posts</title>
-      <link>http://localhost:1313/posts/1724899318272-test-posts/</link>
-      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
-      <author>pharder56k@gmail.com (HARDER)</author>
-      <guid>http://localhost:1313/posts/1724899318272-test-posts/</guid>
-      <description>an example to get you started
-This is a heading # This is a subheading # This is a subsubheading # This is a subsubsubheading # This is a paragraph with bold and italic text.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1724899318272-test-posts/featured.png" />
+      <title>new-article</title>
+      <link>http://localhost:1313/posts/1724854392128-new-article/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/1724854392128-new-article/</guid>
+      <description>an example to get you started</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1724854392128-new-article/featured.png" />
+    </item>
+    
+    <item>
+      <title>test111</title>
+      <link>http://localhost:1313/posts/1724861127755-test111/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/1724861127755-test111/</guid>
+      <description>an example to get you started</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1724861127755-test111/featured.png" />
     </item>
     
   </channel>

@@ -2,24 +2,24 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://blowfish.page/docs/getting-started/
 
-theme = "blowfish"
-baseURL = "https://localhost:1313"
+theme = "blowfish" # UNCOMMENT THIS LINE
+# baseURL = "https://your_domain.com/"
 defaultContentLanguage = "zh-cn"
-disableLanguages = [] #to allow translation work requiring shipping to production
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
-paginate = 9
-summaryLength = 30
-hasCJKLanguage = true
+paginate = 10
+summaryLength = 0
 
 buildDrafts = false
 buildFuture = false
 
 enableEmoji = true
 
-googleAnalytics = "G-PEDMYR1V0K"
+hasCJKLanguage = true
+
+# googleAnalytics = "G-XXXXXXXXX"
 
 [imaging]
   anchor = 'Center'
@@ -27,11 +27,11 @@ googleAnalytics = "G-PEDMYR1V0K"
 [taxonomies]
   tag = "tags"
   category = "categories"
-  about = "aboutme"
-
+  author = "authors"
+  series = "series"
 
 [sitemap]
-  changefreq = 'always'
+  changefreq = 'daily'
   filename = 'sitemap.xml'
   priority = 0.5
 
