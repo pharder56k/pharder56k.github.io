@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>博文 on HARDER BLOG</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in 博文 on HARDER BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh-cn</language>
     <copyright>© 2024 </copyright>
-    <lastBuildDate>Wed, 28 Aug 2024 22:14:58 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Blog</title>
+      <title>No.1 Test</title>
       <link>http://localhost:1313/posts/first-blog/</link>
-      <pubDate>Wed, 28 Aug 2024 22:14:58 +0800</pubDate>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/first-blog/</guid>
-      <description>Introduction # This is bold text, and this is emphasized text.</description>
+      <description>Introduction # This is bold text, and this is emphasized text. Visit the Hugo website!</description>
       
     </item>
     
@@ -24,7 +24,8 @@
       <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/1724854392128-new-article/</guid>
-      <description>an example to get you started</description>
+      <description>an example to get you started
+This is a heading # This is a subheading # This is a subsubheading # This is a subsubsubheading # This is a paragraph with bold and italic text.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1724854392128-new-article/featured.png" />
     </item>
     
@@ -34,7 +35,8 @@
       <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/1724861127755-test111/</guid>
-      <description>an example to get you started</description>
+      <description>an example to get you started
+This is a heading # This is a subheading # This is a subsubheading # This is a subsubsubheading # This is a paragraph with bold and italic text.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1724861127755-test111/featured.png" />
     </item>
     

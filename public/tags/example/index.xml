@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Example on My New Hugo Site</title>
+    <title>Example on HARDER BLOG</title>
     <link>http://localhost:1313/tags/example/</link>
-    <description>Recent content in Example on My New Hugo Site</description>
+    <description>Recent content in Example on HARDER BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh-cn</language>
     <copyright>© 2024 </copyright>
     <lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/example/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -14,7 +14,8 @@
       <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/1724854392128-new-article/</guid>
-      <description>an example to get you started</description>
+      <description>an example to get you started
+This is a heading # This is a subheading # This is a subsubheading # This is a subsubsubheading # This is a paragraph with bold and italic text.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1724854392128-new-article/featured.png" />
     </item>
     
@@ -24,7 +25,8 @@
       <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/1724861127755-test111/</guid>
-      <description>an example to get you started</description>
+      <description>an example to get you started
+This is a heading # This is a subheading # This is a subsubheading # This is a subsubsubheading # This is a paragraph with bold and italic text.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1724861127755-test111/featured.png" />
     </item>
     
