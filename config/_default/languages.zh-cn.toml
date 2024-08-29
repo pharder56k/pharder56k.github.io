@@ -1,10 +1,10 @@
-languageCode = "en"
-languageName = "English"
+languageCode = "zh-cn"
+languageName = "Simplified Chinese"
 weight = 1
 title = "Harder Blog"
 
 [params]
-  displayName = "EN"
+  displayName = "zh-cn"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
