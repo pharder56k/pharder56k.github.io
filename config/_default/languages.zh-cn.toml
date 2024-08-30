@@ -13,10 +13,11 @@ title = "HARDER BLOG"
 
 [params.author]
   name = "Harder"
-  image = "img/65f9c5b680057.jpg"
+  image = "https://pic.xiaozhangstu.com/i/2024/03/20/65f9c5b680057.jpg"
   headline = "一个强大、轻量级的 Hugo 主题。"
   bio = "一个强大、轻量级的 Hugo 主题。"
   links = [
     { x-twitter = "https://twitter.com/burufugu" },
     { github = "https://github.com/nunocoracao/blowfish" },
   ]
+

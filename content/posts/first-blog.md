@@ -5,6 +5,7 @@ draft: false
 description: "a description"
 tags: ["test", "测试"]
 categories: ["a", "b"]
+featureimage: https://pic.xiaozhangstu.com/i/2024/03/20/65f9c4b96ae8e.jpg
 ---
 ![](https://pic.xiaozhangstu.com/i/2024/03/20/65f9c4b96ae8e.jpg)
 
@@ -13,3 +14,6 @@ categories: ["a", "b"]
 This is **bold** text, and this is *emphasized* text.
 
 Visit the [Hugo](https://gohugo.io) website!
+
+
+
