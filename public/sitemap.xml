@@ -4,125 +4,60 @@
 
   <url>
     <loc>http://localhost:1313/tags/blowfish/</loc>
-    <lastmod>2024-08-31T10:11:39+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/blowfish%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</loc>
-    <lastmod>2024-08-31T10:11:39+08:00</lastmod>
+    <lastmod>2024-08-31T22:53:39+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tags/hugo/</loc>
-    <lastmod>2024-08-31T10:11:39+08:00</lastmod>
+    <lastmod>2024-08-31T22:53:39+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/20240831-hugo%E9%83%A8%E7%BD%B2%E4%B8%8Eblowfish%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3%E7%9A%84%E4%B8%80%E4%BA%9B%E8%B5%84%E6%BA%90/</loc>
+    <lastmod>2024-08-31T22:53:39+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-08-31T10:11:39+08:00</lastmod>
+    <lastmod>2024-08-31T22:53:39+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-08-31T10:11:39+08:00</lastmod>
+    <lastmod>2024-08-31T22:53:39+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-08-31T10:11:39+08:00</lastmod>
+    <lastmod>2024-08-31T22:53:39+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-08-31T10:11:39+08:00</lastmod>
+    <lastmod>2024-08-31T22:53:39+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/categories/%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</loc>
+    <lastmod>2024-08-31T22:53:39+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/20240831-blowfish%E4%B8%BB%E9%A2%98%E5%B8%B8%E7%94%A8%E7%AE%80%E7%A0%81%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/</loc>
     <lastmod>2024-08-31T10:11:39+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/a/</loc>
-    <lastmod>2024-08-30T22:58:06+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/categories/b/</loc>
-    <lastmod>2024-08-30T22:58:06+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
-    <lastmod>2024-08-30T22:58:06+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/test/</loc>
-    <lastmod>2024-08-30T22:58:06+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2024-08-30T22:58:06+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/1725029719714-2024-08-30/</loc>
-    <lastmod>2024-08-30T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/example/</loc>
-    <lastmod>2024-08-30T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/tag/</loc>
-    <lastmod>2024-08-30T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/first-blog/</loc>
-    <lastmod>2024-08-29T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/1724854392128-new-article/</loc>
-    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/1724861127755-test111/</loc>
-    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/abouts/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/go/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
