@@ -1,7 +1,7 @@
 ---
 title: "Blowfish主题的一些使用技巧"
 date: 2024-08-31T10:11:39+08:00
-draft: true
+draft: false
 tags: ["hugo", "blowfish"]
 categories: ["使用技巧"]
 featureimage:
