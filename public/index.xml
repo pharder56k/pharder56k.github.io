@@ -15,7 +15,7 @@
       
       <guid>http://localhost:1313/posts/blowfish%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/blowfish%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/featured.png" />
     </item>
     
     <item>

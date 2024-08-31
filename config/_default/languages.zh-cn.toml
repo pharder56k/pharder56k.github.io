@@ -1,6 +1,6 @@
 languageCode = "zh-cn"
 languageName = "简体中文"
-weight = 4
+weight = 1
 title = "HARDER BLOG"
 
 [params]
@@ -8,14 +8,14 @@ title = "HARDER BLOG"
   isoCode = "zh-cn"
   rtl = false
   dateFormat = "2006-01-02"
-  logo = "img/blowfish_logo_transparent.png"
-  description = "一个强大、轻量级的 Hugo 主题。"
+  logo = "img/AstroMan.png"
+  description = "一个爱折腾的设计师的博客"
 
 [params.author]
-  name = "Harder"
+  name = "HARDER"
   image = "https://pic.xiaozhangstu.com/i/2024/03/20/65f9c5b680057.jpg"
-  headline = "一个强大、轻量级的 Hugo 主题。"
-  bio = "一个强大、轻量级的 Hugo 主题。"
+  headline = "一个爱折腾的设计师"
+  bio = "一个爱折腾的设计师的博客"
   links = [
     { x-twitter = "https://twitter.com/burufugu" },
     { github = "https://github.com/nunocoracao/blowfish" },
