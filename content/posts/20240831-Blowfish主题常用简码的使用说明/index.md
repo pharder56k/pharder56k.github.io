@@ -1,5 +1,5 @@
 ---
-title: "Blowfish主题的一些使用技巧"
+title: "Blowfish主题常用简码的使用说明"
 date: 2024-08-31T10:11:39+08:00
 draft: false
 tags: ["hugo", "blowfish"]
