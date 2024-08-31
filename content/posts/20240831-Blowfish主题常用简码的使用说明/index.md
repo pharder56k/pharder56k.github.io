@@ -4,7 +4,7 @@ date: 2024-08-31T10:11:39+08:00
 draft: false
 tags: ["hugo", "blowfish"]
 categories: ["使用技巧"]
-featureimage:
+featureimage: https://minio.pic.xiaozhangstu.com/lsky-pro/2024/08/31/66d2d8b05da7e.webp
 ---
 
 [Blowfish简码](https://blowfish.page/zh-cn/docs/shortcodes)
