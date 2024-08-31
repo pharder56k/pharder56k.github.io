@@ -14,7 +14,7 @@
       <pubDate>Sat, 31 Aug 2024 10:11:39 +0800</pubDate>
       
       <guid>http://localhost:1313/posts/blowfish%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</guid>
-      <description></description>
+      <description>Blowfi</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/blowfish%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/featured.png" />
     </item>
     
@@ -24,7 +24,7 @@
       <pubDate>Fri, 30 Aug 2024 22:58:06 +0800</pubDate>
       
       <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description></description>
+      <description>参考我另一篇</description>
       
     </item>
     
@@ -44,7 +44,7 @@
       <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/first-blog/</guid>
-      <description></description>
+      <description>Introduction # This is bold text,</description>
       
     </item>
     
@@ -66,6 +66,16 @@
       <guid>http://localhost:1313/posts/1724861127755-test111/</guid>
       <description>an example to get you started</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1724861127755-test111/featured.png" />
+    </item>
+    
+    <item>
+      <title>Redirect</title>
+      <link>http://localhost:1313/go/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/go/</guid>
+      <description></description>
+      
     </item>
     
   </channel>

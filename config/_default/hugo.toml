@@ -11,7 +11,7 @@ disableLanguages = [] #to allow translation work requiring shipping to productio
 
 enableRobotsTXT = true
 paginate = 12
-summaryLength = 0
+summaryLength = 6
 hasCJKLanguage = true
 
 buildDrafts = false
@@ -67,3 +67,7 @@ googleAnalytics = "G-PEDMYR1V0K"
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+
+[services]
+  [services.disqus]
+    shortname = 'harder-blog'

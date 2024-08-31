@@ -57,6 +57,7 @@ smartTOCHideUnfocusedChildren = false
   showDateOnlyInArticle = false
   showDateUpdated = false
   showAuthor = true
+  showComments = true
   # showAuthorBottom = false
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground

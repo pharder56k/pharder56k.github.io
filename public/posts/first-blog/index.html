@@ -92,7 +92,7 @@
     "name": "No.1 Test",
     "headline": "No.1 Test",
     "description": "a description",
-    
+    "abstract": "Introduction # This is bold text,",
     "inLanguage": "zh-cn",
     "url" : "http:\/\/localhost:1313\/posts\/first-blog\/",
     "author" : {
@@ -815,7 +815,7 @@
     
 
     
-      
+
       
         
         
@@ -900,9 +900,9 @@
     
 
   </header>
-  
+
   <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
-    
+
      <div
       class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
       <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
@@ -1008,7 +1008,7 @@
       
 
       <div class="min-w-0 min-h-0 max-w-fit">
-        
+
         
 
 
@@ -1038,7 +1038,7 @@
           
           
         </div>
-        
+
         
 
         
@@ -1474,9 +1474,9 @@
   
 </section>
 
-  
+
       </div>
-     
+
       
       
         
@@ -1492,7 +1492,7 @@
       
       <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
       
-  
+
     </section>
   <footer class="pt-8 max-w-prose print:hidden">
 
@@ -1559,6 +1559,34 @@
   
 
 
+    
+    
+    <div class="pt-3">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="pt-3">
+        <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "harder-blog" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+    
     
   </footer>
 </article>
