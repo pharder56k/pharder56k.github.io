@@ -68,6 +68,7 @@ googleAnalytics = "G-PEDMYR1V0K"
       type = 'fragments'
       weight = 10
 
-[services]
-  [services.disqus]
-    shortname = 'harder-blog'
+# hugo 自带评论系统的配置
+# [services]
+#   [services.disqus]
+#     shortname = 'harder-blog'

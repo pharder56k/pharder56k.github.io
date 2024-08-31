@@ -1,23 +1,67 @@
-{{- $pc := .Site.Config.Privacy.Disqus -}}
-{{- if not $pc.Disable -}}
-{{ if .Site.Config.Services.Disqus.Shortname }}<div id="disqus_thread"></div>
-<script>
-    window.disqus_config = function () {
-    {{with .Params.disqus_identifier }}this.page.identifier = '{{ . }}';{{end}}
-    {{with .Params.disqus_title }}this.page.title = '{{ . }}';{{end}}
-    {{with .Params.disqus_url }}this.page.url = '{{ . | html  }}';{{end}}
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + {{ .Site.Config.Services.Disqus.Shortname }} + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
+<br/>
+<span style="color:rgba(var(--color-neutral-400),var(--tw-text-opacity));">
+    <span class="post-meta-item-text" >&nbsp;&nbsp;文章阅读量:  </span>
+    <span class="waline-pageview-count">⏳</span><div></div><br/>
+</span>
+<script type="text/javascript">
+      document.getElementByClassName("aline-pageview-count")[0].data-path = window.location.pathname;
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>{{end}}
-{{- end -}}
+<script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet' />
+<div id="vcomments"></div>
+  <script>
+    if ({{i18n "lanString"}}=="zh-CN") {
+                    Waline.init({
+            el: '#vcomments',
+           serverURL: 'https://deta.space/?horizon=2Gj2FmiAU3',
+           emoji: ['https://valine-emoji.bili33.top/bilibilitv','https://valine-emoji.bili33.top/bilibiliHotKey','https://valine-emoji.bili33.top/Tieba-New','https://valine-emoji.bili33.top/weibo',],
+           meta:['nick', 'mail'],
+           pageview: true,
+           reaction: true,
+           lang: "zh-CN",
+           locale: {
+          reactionTitle: '•畅所欲言——这里是开放区•',
+          comment: '留言板',
+          placeholder: '点击下方登录后再评论，会有惊喜哦~',
+          gifSearchPlaceholder: '搜索表情包...',
+          admin: '作者',
+          sofa: '还没有人评论，快来抢沙发吧',
+          anonymous: '匿名者'
+        }
+          });
+
+    }
+    else {
+                Waline.init({
+            el: '#vcomments',
+           serverURL: 'https://waline-1-e5403272.deta.app/',
+           emoji: ['https://valine-emoji.bili33.top/bilibilitv','https://valine-emoji.bili33.top/bilibiliHotKey','https://valine-emoji.bili33.top/Tieba-New','https://valine-emoji.bili33.top/weibo',],
+           meta:['nick', 'mail'],
+           pageview: true,
+           reaction: true,
+           lang:{{i18n "lanString"}},
+          });
+
+    }
+  document.getElementsByClassName('wl-power')[0].style.display = 'none';
+      document.querySelector(".wl-actions a").style.display = 'none'
+  </script>
+  <style type="text/css">
+    :root{
+      --waline-color: var(--tw-prose-quotes);
+      --waline-info-color: var(--tw-prose-quotes);
+      --waline-info-bgcolor: var(--tw-ring-color);
+      --waline-theme-color: rgba(var(--color-primary-400));
+      --waline-bgcolor: transparent;
+      --waline-border-color: #747474;
+    }
+    .wl-editor:focus, .wl-input:focus {
+    background: transparent;
+        }
+    .wl-editor,.wl-input{
+      max-width:88%;
+    }
+    .wl-reaction-item.active .wl-reaction-votes {
+    color: white;
+    }
+  </style>

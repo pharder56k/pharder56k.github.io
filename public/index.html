@@ -1529,6 +1529,39 @@
     </nav>
     
   
+  
+  <span class="text-sm text-neutral-500 dark:text-neutral-400">
+  
+    <span class="waline-pageview-count" data-path="/" id="pagec">——</span>
+  </span>
+  <script type="module">
+    import { pageviewCount } from 'https://unpkg.com/@waline/client/dist/pageview.js';
+    pageviewCount({
+      serverURL: 'https://deta.space/?horizon=2Gj2FmiAU3',
+      path: '/',
+    });
+</script>
+<script type="text/javascript">
+    var pagect = document.getElementById('pagec');
+var observer = new MutationObserver(function(){
+      var itl,itll;
+      var element = document.getElementById("pagec");
+      observer.disconnect();
+      itl  = element.innerText;
+      itll = Number(itl).toLocaleString();
+      document.getElementById('pagec').innerHTML = itll;
+});
+var article = document.getElementById('pagec');
+
+var options = {
+  'childList': true,
+    'subtree': true
+};
+
+observer.observe(article, options);
+</script>
+
+
   <div class="flex items-center justify-between">
 
     
