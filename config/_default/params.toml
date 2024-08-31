@@ -21,7 +21,7 @@ disableImageOptimization = false
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
-defaultBackgroundImage = "https://pic.xiaozhangstu.com/i/2024/03/20/65f9c3d9e0554.jpg"
+defaultBackgroundImage = "https://minio.pic.xiaozhangstu.com/lsky-pro/2024/08/31/66d2d8b05da7e.webp"
 defaultFeaturedImage = "/img/featured.svg"
 
 highlightCurrentMenuArea = true
